@@ -38,19 +38,19 @@ public class Transaction {
             this.vendor = vendor;
         }
 
-        ///////// Constructors
-        public Transaction(String date, String time, String description, String vendor, double amountOfDeposit, double amountOfPayment) {
-            this.date = date;
-            this.time = time;
-            this.description = description;
-            this.vendor = vendor;
+        public double getAmountOfTransaction() { return amountOfTransaction; }
 
-        }
+        public void setAmountOfTransaction(double amountOfTransaction) {this.amountOfTransaction = amountOfTransaction;}
+
+        ///////// Constructors
+
+
 
         private String date;
         private String time;
         private String description;
         private String vendor;
+        private double amountOfTransaction;
 
     public Transaction(String date, String time, String description, String vendor, double amountOfTransaction) {
         this.date = date;
@@ -60,11 +60,9 @@ public class Transaction {
         this.amountOfTransaction = amountOfTransaction;
     }
 
-    private double amountOfTransaction;
-
     @Override
     public String toString() {
-        return "Transactions{" +
+        return "Transaction{" +
                 "date='" + date + '\'' +
                 ", time='" + time + '\'' +
                 ", description='" + description + '\'' +
@@ -73,15 +71,10 @@ public class Transaction {
                 '}';
     }
 
-    public double getAmountOfTransaction() {
-        return amountOfTransaction;
-    }
 
     public Transaction(double amountOfTransaction) {
         this.amountOfTransaction = amountOfTransaction;
     }
 
-    public void setAmountOfTransaction(double amountOfTransaction) {
-        this.amountOfTransaction = amountOfTransaction;
-    }
+
 }

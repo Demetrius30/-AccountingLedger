@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="037e2356-d67d-47db-a691-ce459a147ba8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/transactions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ transactions.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dm/LedgerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dm/LedgerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dm/Transactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dm/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dm/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dm/Transaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,5 +68,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dm/LedgerApp.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dm/LedgerApp.java</url>
+          <line>281</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
