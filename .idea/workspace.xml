@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="037e2356-d67d-47db-a691-ce459a147ba8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dm/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dm/LedgerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dm/LedgerApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dm/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dm/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/transactions.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\Desktop\LearnToCode_Capstones\AccountingLedger\target\classes\com\dm" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,21 +75,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dm/LedgerApp.java</url>
-          <line>199</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/dm/LedgerApp.java</url>
-          <line>281</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

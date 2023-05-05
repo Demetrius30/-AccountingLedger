@@ -38,9 +38,9 @@ public class Transaction {
             this.vendor = vendor;
         }
 
-        public double getAmountOfTransaction() { return amountOfTransaction; }
+        public float getAmountOfTransaction() { return amountOfTransaction; }
 
-        public void setAmountOfTransaction(double amountOfTransaction) {this.amountOfTransaction = amountOfTransaction;}
+        public void setAmountOfTransaction(float amountOfTransaction) {this.amountOfTransaction = amountOfTransaction;}
 
         ///////// Constructors
 
@@ -50,9 +50,9 @@ public class Transaction {
         private String time;
         private String description;
         private String vendor;
-        private double amountOfTransaction;
+        private float amountOfTransaction;
 
-    public Transaction(String date, String time, String description, String vendor, double amountOfTransaction) {
+    public Transaction(String date, String time, String description, String vendor, float amountOfTransaction) {
         this.date = date;
         this.time = time;
         this.description = description;
@@ -72,7 +72,7 @@ public class Transaction {
     }
 
 
-    public Transaction(double amountOfTransaction) {
+    public Transaction(float amountOfTransaction) {
         this.amountOfTransaction = amountOfTransaction;
     }
 
